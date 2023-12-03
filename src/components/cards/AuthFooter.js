@@ -15,22 +15,22 @@ const AuthFooter = () => {
         textAlign={matchDownSM ? 'center' : 'inherit'}
       >
         <Typography variant="subtitle2" color="secondary" component="span">
-          &copy; Mantis React Dashboard Template By&nbsp;
-          <Typography component={Link} variant="subtitle2" href="https://codedthemes.com" target="_blank" underline="hover">
-            CodedThemes
+          &copy; PPK Virtue Services Ltd By&nbsp;
+          <Typography component={Link} variant="subtitle2" href="https://www.ppkvirtueservices.com/" target="_blank" underline="hover">
+            Admin
           </Typography>
         </Typography>
 
         <Stack direction={matchDownSM ? 'column' : 'row'} spacing={matchDownSM ? 1 : 3} textAlign={matchDownSM ? 'center' : 'inherit'}>
-          <Typography
+        <Typography
             variant="subtitle2"
             color="secondary"
             component={Link}
-            href="https://material-ui.com/store/contributors/codedthemes/"
+            href="https://www.ppkvirtueservices.com/"
             target="_blank"
             underline="hover"
           >
-            MUI Templates
+            PPK Virtue Services Ltd
           </Typography>
           <Typography
             variant="subtitle2"
